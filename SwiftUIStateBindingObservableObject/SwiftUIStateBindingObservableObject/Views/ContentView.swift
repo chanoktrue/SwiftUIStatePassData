@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             StateView()
-                .navigationBarTitle("Count")
+                .navigationBarTitle("Pass Data Between View")
         }
     }
 }

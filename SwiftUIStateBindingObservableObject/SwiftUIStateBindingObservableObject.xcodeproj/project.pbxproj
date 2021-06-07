@@ -15,6 +15,7 @@
 		CD742A3B266DFA21006B460D /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD742A3A266DFA21006B460D /* BindingView.swift */; };
 		CD742A3D266DFC8F006B460D /* InfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD742A3C266DFC8F006B460D /* InfoData.swift */; };
 		CD742A3F266DFE3F006B460D /* InfoDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD742A3E266DFE3F006B460D /* InfoDataViewModel.swift */; };
+		CD742A41266E0513006B460D /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD742A40266E0513006B460D /* EnvironmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CD742A3A266DFA21006B460D /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		CD742A3C266DFC8F006B460D /* InfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoData.swift; sourceTree = "<group>"; };
 		CD742A3E266DFE3F006B460D /* InfoDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDataViewModel.swift; sourceTree = "<group>"; };
+		CD742A40266E0513006B460D /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				CD742A26266DF825006B460D /* ContentView.swift */,
 				CD742A38266DF9BE006B460D /* StateView.swift */,
 				CD742A3A266DFA21006B460D /* BindingView.swift */,
+				CD742A40266E0513006B460D /* EnvironmentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				CD742A27266DF825006B460D /* ContentView.swift in Sources */,
 				CD742A39266DF9BE006B460D /* StateView.swift in Sources */,
+				CD742A41266E0513006B460D /* EnvironmentView.swift in Sources */,
 				CD742A3F266DFE3F006B460D /* InfoDataViewModel.swift in Sources */,
 				CD742A3B266DFA21006B460D /* BindingView.swift in Sources */,
 				CD742A3D266DFC8F006B460D /* InfoData.swift in Sources */,

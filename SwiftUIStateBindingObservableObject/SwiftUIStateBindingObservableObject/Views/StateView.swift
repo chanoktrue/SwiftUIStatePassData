@@ -32,7 +32,7 @@ struct StateView: View {
                 destination: BindingView(number: $number, infoDataVM: infoDataVM),
                 isActive: $isBindingView,
                 label: {
-                    Text("Binding")
+                    Text("Binding >>")
                         .padding()
                 })
             

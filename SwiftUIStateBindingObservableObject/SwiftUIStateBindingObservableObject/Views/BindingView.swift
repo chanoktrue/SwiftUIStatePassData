@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct BindingView: View {
-    
+        
     // Binding
     @Binding var number: Int
     
+    
     // StateOBject
     @ObservedObject var infoDataVM: InfoDataViewModel
+    
     
     var body: some View {
         VStack {
@@ -38,6 +40,14 @@ struct BindingView: View {
                 Text("StateObject")
                     .padding()
             })
+            
+            // EnvironmentObject
+            NavigationLink(
+                destination: EnvironmentView(),
+                label: {
+                    Text("EnvironmentOBject")
+                        .padding()
+                })
             
         }
     }
