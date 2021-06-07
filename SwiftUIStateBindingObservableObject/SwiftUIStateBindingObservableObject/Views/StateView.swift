@@ -14,7 +14,7 @@ struct StateView: View {
     @State var isBindingView: Bool = false
     
     // StateObject
-    @StateObject var infoDataVM = InfoDataViewModel()
+    @ObservedObject var infoDataVM: InfoDataViewModel
     
     var body: some View {
         VStack {
@@ -53,6 +53,6 @@ struct StateView: View {
 
 struct StateView_Previews: PreviewProvider {
     static var previews: some View {
-        StateView()
+        StateView(infoDataVM: InfoDataViewModel())
     }
 }

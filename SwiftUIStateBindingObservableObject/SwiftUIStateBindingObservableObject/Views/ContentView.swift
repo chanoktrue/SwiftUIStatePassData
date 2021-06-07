@@ -9,11 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
 
+    @StateObject var infoDataVM = InfoDataViewModel()
+    
     var body: some View {
         NavigationView {
-            StateView()
-                .navigationBarTitle("Pass Data Between View")
+            
+            VStack {
+                StateView(infoDataVM: infoDataVM)
+                    .navigationBarTitle("Pass Data Between View")
+                
+                Button(action: {
+                    infoDataVM.save()
+                }, label: {
+                    Text("Save")
+                })
+            }
         }
+        .environmentObject(infoDataVM)
     }
 }
 

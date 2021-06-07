@@ -8,5 +8,10 @@
 import SwiftUI
 
 class InfoDataViewModel: ObservableObject {
+    
     @Published var  infoData: InfoData = InfoData.values
+    
+    func save() {
+        print("Save...\(infoData.name)")
+    }
 }

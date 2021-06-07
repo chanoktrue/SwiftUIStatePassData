@@ -12,8 +12,19 @@ struct EnvironmentView: View {
     @EnvironmentObject var infoDataVM: InfoDataViewModel
     
     var body: some View {
-        Text(infoDataVM.infoData.name)
-            .padding()
+        VStack {
+            Text(infoDataVM.infoData.name)
+                .padding()
+            
+            TextField("Enter : ", text: $infoDataVM.infoData.name)
+                .padding()
+            
+            Button(action: {
+                infoDataVM.save()
+            }, label: {
+                Text("Save")
+            })
+        }
     }
 }
 
